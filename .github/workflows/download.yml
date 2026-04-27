@@ -1,0 +1,17 @@
+name: Download DeepSeek APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download file
+        run: curl -L "https://download.deepseek.com/apk/deepseek.apk" -o deepseek.apk
+        
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: deepseek-apk
+          path: deepseek.apk
