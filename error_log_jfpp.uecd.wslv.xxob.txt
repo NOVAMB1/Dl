@@ -1,0 +1,24 @@
+Time: ۲۰۲۶-۰۳-۰۸ ۱۵:۱۰:۳۰
+Package: max.vpn.org
+VName: 2.4.0.0
+VCode: 6
+OS Version: 35
+Vendor: Xiaomi
+Model: 2311DRK48G
+
+java.lang.NullPointerException: Attempt to invoke interface method 'void k.p.w()' on a null object reference
+	at ViewModel.SplashViewModel.a(SplashViewModel.java:12)
+	at x.v$a.run(ApiManager.java:1)
+	at android.os.Handler.handleCallback(Handler.java:959)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loopOnce(Looper.java:249)
+	at android.os.Looper.loop(Looper.java:337)
+	at ι.ʾ.ᵌ.ʿˉʼ$ݸ.run(Unknown Source:5)
+	at android.os.Handler.handleCallback(Handler.java:959)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loopOnce(Looper.java:249)
+	at android.os.Looper.loop(Looper.java:337)
+	at android.app.ActivityThread.main(ActivityThread.java:9500)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:636)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
